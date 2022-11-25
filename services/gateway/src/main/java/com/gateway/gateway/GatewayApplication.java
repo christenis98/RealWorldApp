@@ -1,14 +1,14 @@
-package com.helloworldbankuser.helloworldbankuser;
+package com.gateway.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-public class HelloworldbankuserApplication {
+public class GatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloworldbankuserApplication.class, args);
+		SpringApplication.run(GatewayApplication.class, args);
 	}
 
 }

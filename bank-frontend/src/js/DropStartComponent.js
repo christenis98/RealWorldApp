@@ -15,7 +15,9 @@ const DropStartComponent = () => {
 
   return (
     <Navbar bg="primary" variant="dark" className={style ? open : closed}>
-      <div className="dropdown-container">
+      <div className="dropdown-container" onClick={() => {
+                setStyle(!style);
+              }}>
         <Dropdown
           key={"start"}
           id={`dropdown-button-drop-${"start"}`}
@@ -25,9 +27,7 @@ const DropStartComponent = () => {
           <Dropdown.Toggle className="">
             <span
               className="display-6"
-              onClick={() => {
-                setStyle(!style);
-              }}
+         
             >
               <i className="bi bi-list"></i>
             </span>
@@ -57,16 +57,16 @@ const DropStartComponent = () => {
               </div>
             </Dropdown.Header>
             <Dropdown.Item className="mt-5 text-muted fw-normal mb-3 fs-6 " eventKey="1">
-              <i class="bi bi-house-door-fill me-4"></i>
+              <i className="bi bi-house-door-fill me-4"></i>
               Home
             </Dropdown.Item>
             <Dropdown.Item eventKey="2" className="text-muted fw-normal mb-3 fs-6">
-              <i class="bi bi-person-fill me-4"></i>
+              <i className="bi bi-person-fill me-4"></i>
               My Account
             </Dropdown.Item>
 
             <Dropdown.Item eventKey="3" className="text-muted fw-normal mb-3 fs-6">
-              <i class="bi bi-bank2 me-4"></i>
+              <i className="bi bi-bank2 me-4"></i>
               Bank Accounts
             </Dropdown.Item>
             <Dropdown.Item eventKey="4" className="text-muted fw-normal mb-3 fs-6">
@@ -74,7 +74,7 @@ const DropStartComponent = () => {
               Notifications
             </Dropdown.Item>
             <Dropdown.Item eventKey="4" className="text-muted fw-normal mb-3 fs-6 mt-5">
-            <i class="bi bi-box-arrow-right me-4 "></i>
+            <i className="bi bi-box-arrow-right me-4 "></i>
              Logout
             </Dropdown.Item>
           </Dropdown.Menu>

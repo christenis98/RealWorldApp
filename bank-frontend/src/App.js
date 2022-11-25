@@ -1,19 +1,13 @@
-import Signup from './js/Signup';
-import './App.css';
-import Badge from 'react-bootstrap/Badge'
-import DropStartComponent from './js/DropStartComponent';
-import UserSettings from './js/UserSettings';
 
+import './App.css';
 import Container from "react-bootstrap/Container";
-import Transactions from './js/Transactions';
+import Signup from './js/inicio/Signup';
+
 
 function App() {
   return (
-    <Container fluid>
-
-      <DropStartComponent />
-      <UserSettings />
-      <Transactions/>
+    <Container fluid >
+    <Signup/>
   </Container>
   );
 }

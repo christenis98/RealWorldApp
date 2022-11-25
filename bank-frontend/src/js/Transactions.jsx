@@ -1,4 +1,4 @@
-import '../css/Transactions.css';
+import '../css/Transactions.css'
 import React from 'react';
 
 

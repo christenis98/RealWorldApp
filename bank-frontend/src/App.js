@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Transactions from './js/Transactions';
+import Badge from 'react-bootstrap/Badge'
+import DropStartComponent from './js/DropStartComponent';
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <div>
-      <Transactions money="200"/>
-    </div>
+    <Container fluid>
+   
+    <DropStartComponent/>
+    <Transactions money="200"/>
+  </Container>
   );
 }
 

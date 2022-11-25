@@ -21,7 +21,11 @@
 }
 .container-fluid{
     padding: 0 !important;
+    background-color: white !important;
 }
 .button-margin{
     margin-left: 15rem !important;
+}
+.navbar{
+    padding: 0 !important;
 }

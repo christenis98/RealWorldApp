@@ -5,6 +5,7 @@ import DropStartComponent from './js/DropStartComponent';
 import UserSettings from './js/UserSettings';
 
 import Container from "react-bootstrap/Container";
+import Transactions from './js/Transactions';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
 
       <DropStartComponent />
       <UserSettings />
-    </Container>
+      {/* <Transactions/> */}
+  </Container>
   );
 }
 

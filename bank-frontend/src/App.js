@@ -10,7 +10,8 @@ function App() {
     <Container fluid>
    
     <DropStartComponent/>
-    <Transactions/>
+    <Transactions/> 
+    
   </Container>
   );
 }

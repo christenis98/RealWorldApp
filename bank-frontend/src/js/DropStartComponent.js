@@ -35,7 +35,7 @@ const DropStartComponent = () => {
           <Dropdown.Menu className=" me-2 ">
             <Dropdown.Header className="dropdown-hover ">
               <div className="d-flex flex-row dropdown-hover">
-                <div className="display-3 me-3 ms-3">
+                <div className="display-3 me-3 ms-3 pt-2">
                   <i className="bi bi-person-vcard-fill"></i>
                 </div>
                 <div className="d-flex flex-column ms-3 mt-3">

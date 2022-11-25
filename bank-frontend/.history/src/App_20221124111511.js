@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import Badge from 'react-bootstrap/Badge'
 import DropStartComponent from './js/DropStartComponent';
-import UserSettings from './js/UserSettings';
 
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       </Badge>
     </h1>
     <DropStartComponent/>
-    <UserSettings/>
   </div>
   );
 }

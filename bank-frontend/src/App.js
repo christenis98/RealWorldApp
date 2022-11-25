@@ -13,7 +13,7 @@ function App() {
 
       <DropStartComponent />
       <UserSettings />
-      {/* <Transactions/> */}
+      <Transactions/>
   </Container>
   );
 }

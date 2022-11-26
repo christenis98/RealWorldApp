@@ -1,5 +1,5 @@
 server:
-  port:9191
+  port: 9191
 
 spring:
   application:
@@ -7,12 +7,12 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: USER-SERVICE
-          uri: lb://USER-SERVICE
+        - id: REGISTER-SERVICE
+          uri: lb://REGISTER-SERVICE
           predicates:
           - Path=/users/**
-        - id: TRANSACTIONS-SERVICE
-          uri: lb://TRANSACTIONS-SERVICE
+        - id: TRANSACTION-SERVICE
+          uri: lb://TRANSACTION-SERVICE
           predicates:
           - Path=/transactions/**
 

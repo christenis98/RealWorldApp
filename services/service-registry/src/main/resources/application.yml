@@ -7,7 +7,7 @@ server:
 spring:
   application:
     name: eureka-discovery-service
-
+ 
 eureka:
   client:
     registerWithEureka: false

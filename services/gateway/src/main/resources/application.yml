@@ -15,7 +15,14 @@ spring:
           uri: lb://TRANSACTION-SERVICE
           predicates:
           - Path=/transactions/**
-
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+              allowedOrigins: "http://localhost:3000"
+              allowedMethods: 
+              - POST
+              - GET
+       
 eureka:
   client:
     registerWithEureka: true

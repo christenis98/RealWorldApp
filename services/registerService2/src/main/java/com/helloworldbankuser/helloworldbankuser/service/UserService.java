@@ -19,7 +19,7 @@ public class UserService {
 	}
 	
 	public User getUser(String id) throws Exception {
-		System.out.println("step 2");
+		
 		return userRepository.findById(id);
 	}
 	

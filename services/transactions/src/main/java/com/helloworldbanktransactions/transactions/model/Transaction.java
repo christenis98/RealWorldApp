@@ -13,6 +13,10 @@ public class Transaction {
 	private double amount;
 	private int likes;
 	
+	public Transaction() {
+		
+	}
+	
 	
 	public Transaction(String i, String j, String k, double d) {
 		super();

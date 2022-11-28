@@ -18,7 +18,7 @@ import com.helloworldbankuser.helloworldbankuser.model.User;
 import com.helloworldbankuser.helloworldbankuser.service.UserService;
 
 @RestController
-@RequestMapping("api/users")
+@RequestMapping("/users")
 @CrossOrigin
 public class UserController {
 

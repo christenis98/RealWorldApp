@@ -17,9 +17,8 @@ public class RepoImpl implements Repo {
 	}
 
 	@Override
-	public User saveUser(User newUser) {	
+	public User saveUser(User newUser) {
 		usersList.add(newUser);
-		
 		return newUser;
 	}
 

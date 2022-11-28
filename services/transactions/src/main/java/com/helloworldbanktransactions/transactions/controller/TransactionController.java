@@ -15,7 +15,7 @@ import com.helloworldbanktransactions.transactions.model.Transaction;
 import com.helloworldbanktransactions.transactions.service.TransactionService;
 
 @RestController
-@RequestMapping("api/transaction")
+@RequestMapping("transactions")
 @CrossOrigin
 public class TransactionController {
 	

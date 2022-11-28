@@ -1,12 +1,11 @@
 import axios from "axios";
 
 export class UserService {
-  url = "http://localhost:9002/users";
+  url = "http://localhost:9191/users";
 
   getAll() {
     return axios.get(this.url).then((response) => response.data);
   }
-
   getById(id) {
     return axios.get(this.url + id, id).then((response) => response.data);
   }

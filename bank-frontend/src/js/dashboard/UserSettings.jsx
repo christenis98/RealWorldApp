@@ -1,7 +1,10 @@
 import React from "react";
+import DropStartComponent from "./DropStartComponent";
 
 function UserSettings() {
   return (
+    <>
+    <DropStartComponent/>
     <div className="container ">
       <div className=" row justify-content-center mt-5">
         <div className="m-5 ps-4 rounded bg-light col p-4 ">
@@ -58,6 +61,8 @@ function UserSettings() {
         </div>
       </div>
     </div>
+    </>
+    
   );
 }
 

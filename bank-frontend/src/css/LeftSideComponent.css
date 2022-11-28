@@ -1,0 +1,8 @@
+.border{
+    height: 93vh;
+    width: 15vw;
+    border-right: 1px solid gray;
+}
+.width-component{
+    width: 17vw;
+}

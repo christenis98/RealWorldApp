@@ -1,5 +1,6 @@
-import "../css/Transactions.css";
+
 import React from "react";
+
 
 const Transactions = (props) => {
   let money = 200.71;
@@ -9,6 +10,8 @@ const Transactions = (props) => {
   let likes = 0;
 
   return (
+    <>
+   
     <div className="container">
       <div className="row justify-content-center mt-5">
         <div className="m-5 ps-4 rounded bg-light col p-4">
@@ -52,6 +55,7 @@ const Transactions = (props) => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

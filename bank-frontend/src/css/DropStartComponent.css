@@ -1,31 +1,16 @@
-.dropdown-toggle::before {
-    display:none !important;
-}
+
 .btn-success{
     background-color: rgb(124, 230, 18) !important;
 }
-.dropdown-menu{
-    border-radius: unset !important;
-    margin-top: -0.6rem !important;
-    padding: 0 !important;
-    width: 17.5rem;
-    height: 100vh;
-}
-.dropdown-container{
-    padding-left: 15rem;
-    margin-left: -11.98rem;
-}
-.dropdown-hover:hover{
-    background-color: white !important;
-    cursor: default;
-}
+
 .container-fluid{
     padding: 0 !important;
     background-color: white !important;
 }
-.button-margin{
-    margin-left: 15rem !important;
-}
+
 .navbar{
     padding: 0 !important;
+}
+.nav-move{
+    
 }

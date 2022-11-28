@@ -10,14 +10,13 @@ spring:
         - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
         - AddResponseHeader=Access-Control-Allow-Origin, *
       globalcors:
-        corsConfigurations:
+        cors-configurations:
           '[/**]':
-              allowedOrigins: "*"
-              allowedHeaders:
-              - content-type
-              allowedMethods: "*"
-              allowed-origin-patterns: "*"
-              allowCredentials: true
+            allowedOrigins: "http://localhost:3000"
+            allowedHeaders: "*"
+            allowedMethods:
+            - GET
+            - POST
       routes:
         - id: REGISTER-SERVICE
           uri: lb://REGISTER-SERVICE

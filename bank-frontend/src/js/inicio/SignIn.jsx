@@ -82,13 +82,13 @@ export default class SignIn extends Component {
               />
 
               <div className="d-flex flex-column">
-                <Button
+                <Link
                   className="mt-3 btn btn-primary"
                   to={"/Dashboard"}
                   onClick={this.loginHandler}
                 >
                   Sign in
-                </Button>
+                </Link>
               </div>
             </Form>
           </div>

@@ -22,10 +22,10 @@ export default class Signup extends Component {
     this.saveUser = this.saveUser.bind(this);
   }
 
-  // componentDidMount() {
-  //   this.userService.getAll().then((data) => console.log(data));
-
-  // }
+  componentDidMount() {
+    this.userService.getAll().then((data) => console.log(data));
+    this.userService.getById("dfghf").then((data) => console.log(data));
+  }
 
   saveUser() {
     // console.log(this.userService);
@@ -144,6 +144,7 @@ export default class Signup extends Component {
                   to={"/Login"}
                   className="btn btn-primary mt-3"
                   onClick={this.saveUser}
+                  name="puton"
                 >
                   Sign up
                 </Link>
